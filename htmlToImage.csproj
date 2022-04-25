@@ -7,4 +7,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Select.HtmlToPdf.NetCore" Version="22.1.0" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BarcodeLib.Barcode.ASP.NET">
+      <HintPath>..\..\..\..\..\Program Files\Archivos DLL\BarcodeLib.Barcode.ASP.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

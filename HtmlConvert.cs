@@ -13,7 +13,21 @@ namespace htmlToImage
 {
     public class HtmlConvert
     {
+        //public HtmlConvert(string codigoMunicipio, string nombreArchivo, int referencia, int almacena, dynamic parametros)
+        //{
+        //    CodigoMunicipio = codigoMunicipio;
+        //    NombreArchivo = nombreArchivo;
+        //    Referencia = referencia;
+        //    Almacena = almacena;
+        //    Parametros = parametros;
+        //}
 
+
+        public string CodigoMunicipio { get; set; }
+        //public int Id_TipoAutoliquidable { get; set; }
+        public string NombreArchivo { get; set; }
+        public int Referencia { get; set; }
+        public int Almacena { get; set; } //0-Previsualiza,1-Almacena
         public dynamic Parametros { get; set; }
 
         public byte[] GenerateIMG(string body)
@@ -28,7 +42,7 @@ namespace htmlToImage
         public byte[] GeneratePDF(string body)
         {
             PdfPageSize pageSize = PdfPageSize.Letter11x17;
-
+            
 
             // (PdfPageSize)Enum.Parse(typeof(PdfPageSize), "Letter11x17", true);
             PdfPageOrientation pdfOrientation = (PdfPageOrientation)Enum.Parse(typeof(PdfPageOrientation), "Portrait", true);
@@ -75,7 +89,7 @@ namespace htmlToImage
 
             string total = "", fecha = "", factura = "", EAN = "", doc = "", FechaDeclarado = "";
             fecha = objDt.Property("FechaMaxima").Value.ToString();
-            factura = objDt.Property("NroRadicado").Value.ToString();
+            //factura = objDt.Property("NroRadicado").Value.ToString();
             // doc = objDt.Property("NITM").Value.ToString() == "89118000-1" ? objDt.Property("DocRepresentante").Value.ToString() : objDt.Property("Identificacion").Value.ToString();
             doc = objDt.Property("Identificacion").Value.ToString();
             total = objDt.Property("TotalAPagar").Value.ToString();
