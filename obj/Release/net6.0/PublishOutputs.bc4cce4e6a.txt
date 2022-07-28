@@ -1,0 +1,15 @@
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\htmlToImage.exe
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\Select.Html.dep
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\htmlToImage.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\htmlToImage.deps.json
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\htmlToImage.runtimeconfig.json
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\htmlToImage.pdb
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\Microsoft.Win32.SystemEvents.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\Newtonsoft.Json.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\Select.HtmlToPdf.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\System.Drawing.Common.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\carlos.velez\source\repos\htmlToImage\bin\Release\net6.0\publish\BarcodeLib.Barcode.ASP.NET.dll

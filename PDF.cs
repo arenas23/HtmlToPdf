@@ -31,31 +31,7 @@ namespace htmlToImage
         public string FechaDeclarado { get; set; }
         public string EAN { get; set; }
 
-        public PDF(string periodoBogota, string anio, string fechaMaxima, string radicacion, string numeroDeclaracionCorrige, string fechaElaboracion, string totalIngresosOrdinarios, string sobretasa, string totalImpuestosACargo, string totalImpuestosCargo, string retenciones, string retencion, string valorAPagar, string interesesMora, string totalAPagar, string totalDeducciones, string razonSocial, string identificacion, string telefono, string correo,string fechaDeclarado,string ean)
-        {
-            PeriodoBogota = periodoBogota;
-            Anio = anio;
-            FechaMaxima = fechaMaxima;
-            Radicacion = radicacion;
-            NumeroDeclaracionCorrige = numeroDeclaracionCorrige;
-            FechaElaboracion = fechaElaboracion;
-            TotalIngresosOrdinarios = totalIngresosOrdinarios;
-            Sobretasa = sobretasa;
-            TotalImpuestosACargo = totalImpuestosACargo;
-            TotalImpuestosCargo = totalImpuestosCargo;
-            Retenciones = retenciones;
-            Retencion = retencion;
-            ValorAPagar = valorAPagar;
-            InteresesMora = interesesMora;
-            TotalAPagar = totalAPagar;
-            TotalDeducciones = totalDeducciones;
-            RazonSocial = razonSocial;
-            Identificacion = identificacion;
-            Telefono = telefono;
-            Correo = correo;
-            FechaDeclarado = fechaDeclarado;
-            EAN = ean;
-        }
+
 
 
 
